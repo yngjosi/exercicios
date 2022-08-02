@@ -1,0 +1,25 @@
+<DOCTYPE html>
+    <html>
+    <head>
+            <title>Soma de dois números</title>
+                    <script>
+                    function soma (){
+    var num1 = document.getElementById("n1").value;
+    var num2 = document.getElementById("n2").value;
+    var res = document.getElementById("res");
+    num1 = parseInt(num1);
+    num2 = parseInt(num2);
+    res.innerHTML= num1+num2;
+                    }
+</script>
+                    
+                    </head>
+                    <body>
+Digite um número <br/>
+<input id="n1"> <br />
+Digite um número <br />
+<input id="n2"> <br />
+    <button onclick="soma()">Soma</button> <br/>
+            <div id="res"></div> 
+    </body>
+    </html>
